@@ -113,7 +113,6 @@ io.on('connection', function(socket) {
         socket.broadcast.emit('resign', msg);
     });
     
-
     socket.on('disconnect', function(msg) {
         
       console.log(msg);
